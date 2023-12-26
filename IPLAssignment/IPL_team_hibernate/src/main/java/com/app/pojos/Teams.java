@@ -40,6 +40,17 @@ public Teams(String name, String abbreviation, String owner, int maxAge, double 
 	this.wicketsTaken = wicketsTaken;
 }
 
+
+public Teams(Integer teamId, String abbreviation) {
+	super();
+	this.teamId = teamId;
+	this.abbreviation = abbreviation;
+}
+
+public Teams() {
+	
+}
+
 public Integer getTeamId() {
 	return teamId;
 }
